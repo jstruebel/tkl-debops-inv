@@ -1,0 +1,12 @@
+---
+# Changes to default DebOps postfix role for Turnkey Linux configuration
+
+postfix: [ 'local' ]
+
+postfix_smtpd_banner: '$myhostname ESMTP $mail_name (Debian/GNU)'
+
+postfix_delay_warning_time: '0h'
+
+postfix_message_size_limit: 10
+
+postfix_dependencies: False
